@@ -1,0 +1,262 @@
+[
+  {
+    "type": "Feature",
+    "class": "Beaches",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [3.2985638, 39.4991257]
+    },
+    "properties": {
+      "name": "CALA VARQUES",
+      "description": "Cala virgen, de aguas cristalinas, rodeada de un pinar. Difícil acceso, una larga caminata de 50 minutos.",
+      "image": "calavarques.jpg"
+    }
+  },
+  {
+    "type": "Feature",
+    "class": "Hotels",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [3.3719058, 39.56996]
+    },
+    "properties": {
+      "name": "HOTEL MARIANT PARK",
+      "description": "Alojamiento viaje de 2018. Hotel de 3 estrellas en la playa de S'Illot.",
+      "image": "mariant.jpg"
+    }
+  },
+  {
+    "type": "Feature",
+    "class": "Beaches",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [3.3751664, 39.5750818]
+    },
+    "properties": {
+      "name": "PLAYA SA COMA",
+      "description": "Playa de arena blanca y agua cristalina. Cercana al hotel Mariant Park. Bastante concurrida. Cerca del paseo (restaurantes, bares...)",
+      "image": "sacoma.jpg"
+    }
+  },
+  {
+    "type": "Feature",
+    "class": "Services",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [2.701710, 39.547113]
+    },
+    "properties": {
+      "name": "DOLLAR CAR RENTAL",
+      "description": "Empresa alquiler coche viaje 2018. Seat Ibiza Naranja.",
+      "image": "seat.jpg"
+    }
+  },
+  {
+    "type": "Feature",
+    "class": "Places",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [2.652732, 39.577003]
+    },
+    "properties": {
+      "name": "FERROCARRIL A SOLLER",
+      "description": "Parada para coger el ferrocarril hasta Soller. El ferrocarril mantiene la maquinaria de principios del s.XX",
+      "image": "ferrocarril.jpg"
+    }
+  },
+  {
+    "type": "Feature",
+    "class": "Places",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [2.648248, 39.571352]
+    },
+    "properties": {
+      "name": "IGLESIA DE SAN NICOLÁS",
+      "description": "Iglesia de estilo neogótico en el centro de Palma",
+      "image": "iglesia.jpg"
+    }
+  },
+  {
+    "type": "Feature",
+    "class": "Places",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [2.6341387, 39.569407]
+    },
+    "properties": {
+      "name": "PASEO MARÍTIMO",
+      "description": "Avenida de Gabriel Roca. Paseo marítimo al sur de la capital.",
+      "image": "paseo.jpg"
+    }
+  },
+  {
+    "type": "Feature",
+    "class": "Places",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [2.648306, 39.567636]
+    },
+    "properties": {
+      "name": "CATEDRAL DE PALMA DE MALLORCA",
+      "description": "La Catedral-Basílica de Santa María en Palma, es un templo de estilo gótico levantino construido a la orilla de la bahía de Palma.",
+      "image": "catedral.jpg"
+    }
+  },
+  {
+    "type": "Feature",
+    "class": "Restaurants",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [2.6503947, 39.56997]
+    },
+    "properties": {
+      "name": "CA'N JOAN DE S'AIGO",
+      "description": "Tienda especializada en ensaimadas. También tiene una zona de cafetería.",
+      "image": "joan.jpg"
+    }
+  },
+  {
+    "type": "Feature",
+    "class": "Places",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [2.6438287, 39.5700024]
+    },
+    "properties": {
+      "name": "BAÑOS ÁRABES",
+      "description": "Muestra de la arquitectura musulmana en Mallorca. Restos de los baños árabes y un bonito jardín.",
+      "image": "bañosarabes.jpg"
+    }
+  },
+  {
+    "type": "Feature",
+    "class": "Places",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [2.6222783, 39.7567074]
+    },
+    "properties": {
+      "name": "SA FORADADA",
+      "description": "Península de la Sierra de Tramontana de Mallorca, donde se puede ver uno de los atardeceres más bonitos al introducirse el sol en su descenso por un agujero formado en la roca.",
+      "image": "foradada.jpg"
+    }
+  },
+  {
+    "type": "Feature",
+    "class": "Restaurants",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [2.6247126, 39.751889]
+    },
+    "properties": {
+      "name": "CHIRINGUITO SA FORADADA",
+      "description": "Chiringuito junto al mirador. Ideal para beber un cocktail mientras ves el atardecer.",
+      "image": "chiringuito.jpg"
+    }
+  },
+  {
+    "type": "Feature",
+    "class": "Places",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [2.7817082, 39.8304721]
+    },
+    "properties": {
+      "name": "MIRADOR NUS DE SA CORBATA",
+      "description": "Mirador desde el que se puede contemplar la vertiginosa carretera que recorre el puerto de montaña camino a Sa Calobra",
+      "image": "carretera.jpg"
+    }
+  },
+  {
+    "type": "Feature",
+    "class": "Beaches",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [2.8033828, 39.8524424]
+    },
+    "properties": {
+      "name": "TORRENT DE PAREIS. SA CALOBRA",
+      "description": "Apartado cañón profundo junto al mar con rutas de senderismo, vistas panorámicas, cuevas y una pequeña playa.",
+      "image": "sacalobra.jpg"
+    }
+  },
+  {
+    "type": "Feature",
+    "class": "Restaurants",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [3.3708115, 39.5648788]
+    },
+    "properties": {
+      "name": "THE BEACH BAR S'ILLOT",
+      "description": "Bar junto al paseo marítimo. Comidas y ricos cocktails. Con música en directo.",
+      "image": "cocktails.jpg"
+    }
+  },
+  {
+    "type": "Feature",
+    "class": "Beaches",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [2.7736777, 39.8399763]
+    },
+    "properties": {
+      "name": "CALA TUENT",
+      "description": "Cala muy bonita, rodeada de montañas en un paraje único, arena de piedrecitas pequeñas, agua cristalina. Parking de pago en la zona.",
+      "image": "tuent.jpg"
+    }
+  },
+  {
+    "type": "Feature",
+    "class": "Beaches",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [3.1134999, 39.313822]
+    },
+    "properties": {
+      "name": "CALÓ DES MORO",
+      "description": "Playa semiurbana de gran belleza paisajística, de arena blanca y agua de color turquesa. Bastante masificada. Camino de unos 20 minutos desde el parking gratuito.",
+      "image": "moro.jpg"
+    }
+  },
+  {
+    "type": "Feature",
+    "class": "Beaches",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [3.1174494, 39.312597]
+    },
+    "properties": {
+      "name": "CALA S'ALMUNIA",
+      "description": "Cala con una pequeña zona de arena y otra muy bonita donde acude más gente que es un antiguo embarcadero. No se puede acceder en coche (caminata de unos 20 minutos).",
+      "image": "almunia.jpg"
+    }
+  },
+  {
+    "type": "Feature",
+    "class": "Beaches",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [2.9653725, 39.343582]
+    },
+    "properties": {
+      "name": "PLAYA ES TRENC",
+      "description": "playa natural de siete kilómetros de largo, ubicada en la costa sur de Mallorca. Con su arena blanca, el mar turquesa y las dunas de poca profundidad. Parking de pago.",
+      "image": "trenc.jpg"
+    }
+  },
+  {
+    "type": "Feature",
+    "class": "Places",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [2.7913059, 39.7954628]
+    },
+    "properties": {
+      "name": "EMBALSE DE CÚBER",
+      "description": "Cúber es un embalse artificial de agua situado en las faldas del Puig Major y del Morro de Cúber, en la isla de Mallorca",
+      "image": "embalse.jpg"
+    }
+  }
+]
