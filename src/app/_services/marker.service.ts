@@ -3,6 +3,18 @@ import { HttpClient } from '@angular/common/http';
 import * as L from 'leaflet';
 import { PopUpService } from './pop-up.service';
 
+const ICON_URL = 'assets/icons/pin_black.svg';
+const SHADOW_URL = 'assets/marker-shadow.png';
+const MARKER_ICON: L.IconOptions = {
+  iconUrl: ICON_URL,
+  shadowUrl: SHADOW_URL,
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  tooltipAnchor: [16, -28],
+  shadowSize: [41, 41]
+};
+
 @Injectable({
   providedIn: 'root'
 })
@@ -25,29 +37,12 @@ export class MarkerService {
         const marker = L.marker ([lon, lat], { icon: this.obtainColor(clas) });
 
         marker.bindPopup(this.popupService.makePlacesPopup(p.properties));
-
         marker.addTo(map);
       }
     });
   }
 
-
-  obtainColor(clas: string): any {
-    const iconRetinaUrl = 'assets/marker-icon-2x.png';
-    const iconUrl = 'assets/icons/pin_black.svg';
-    const shadowUrl = 'assets/marker-shadow.png';
-    const markerIcon = L.Icon.extend({
-      options: {
-      iconRetinaUrl,
-      iconUrl,
-      shadowUrl,
-      iconSize: [25, 41],
-      iconAnchor: [12, 41],
-      popupAnchor: [1, -34],
-      tooltipAnchor: [16, -28],
-      shadowSize: [41, 41]
-    }
-    });
+  obtainColor(clas: string): L.Icon<L.IconOptions> {
     let color = 'black';
     switch (clas) {
       case 'Beaches':
@@ -66,9 +61,6 @@ export class MarkerService {
         color = 'pink';
         break;
     }
-    // const i = iconDefault;
-    // Object.assign(i, {iconUrl: `assets/icons/pin_${color}.svg`});
-    return 'assets/icons/pin_${color}.svg';
-    // return L.icon({ ...iconDefault, iconUrl: `assets/icons/pin_${color}.svg` });
+    return L.icon({ ...MARKER_ICON, iconUrl: `assets/icons/pin_${color}.svg` });
   }
 }
